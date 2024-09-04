@@ -1,0 +1,564 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+/* topo */
+
+.top {
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+}
+
+.box-topo1 {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.links-home {
+    margin: 10px 0 0 30px;
+}
+
+.links-home a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #000;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 85px;
+    margin: 0 10px 20px;
+}
+
+.logo h1 {
+    font-size: 34px;
+}
+
+.logo p {
+    font-size: 18px;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+ /* banner */
+
+.banner-home {
+    background-color: #2f86d6;
+    color: #fff;
+
+    width: 100%; 
+    padding: 100px;
+}
+
+.banner-2 {
+    max-width: 1024px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+
+} 
+
+.text-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 480px;
+}
+
+.text-banner p {
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.text-banner h2 {
+    font-size: 28px;
+} 
+
+.img-banner img {
+    width: 430px;
+}
+
+/* primeiro anuncio */
+
+.anuncio-um {
+    width: 100%;
+    padding: 40px 0;
+
+    color: #fff;
+    background-color: #233032;
+}
+
+.anuncio-1 {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.anuncio-um h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.anuncio-um p {
+    font-size: 16px;
+}
+
+.link-anuncio1 {
+    width: 218px;
+    height: 55px;
+    padding: 10px 12px;
+    background-color: #2f86d6;
+    border-radius: 5px;
+    position: relative;
+}
+
+.link-anuncio1 img {
+    width: 18px;
+    margin: 10px 5px 0 ;
+    position: absolute; 
+    top: -5px;
+    left: -30px;
+}
+
+.link-anuncio1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 14px;
+    left: 35px;
+}
+
+/* informacao */
+
+.informacao {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 100px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.informacao h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.informacao span {
+    font-size: 32px;
+    color: #2f86d6;
+}
+
+.info {
+    max-width: 1024px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.info h3{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.info p {
+    font-size: 14px;
+}
+
+.info img {
+    width: 80px;
+}
+
+.info div {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0;
+
+}
+
+/* tabela */
+
+.planos {
+    width: 100%;
+    background-color: #f1f3f7;
+
+    
+}
+
+.tabela1 {
+    max-width: 1024px;
+    padding: 100px 0;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+} 
+
+.tabela1 h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.tabela1 h2 span {
+    color: #2f86d6;
+}
+
+.tabela1 img {
+    width: 90px;
+    padding: 10px 0;
+    
+}
+
+.tabela1 table {
+    margin: 0 auto;
+    box-shadow: #2f86d6 1px 1px 40px 13px;
+    border-radius: 5px;
+    max-width: 1024px;
+}
+
+.tabela1 h3{
+    font-size: 18px;
+    padding: 15px 0 0;
+}
+
+.tabela1 table span {
+    font-size: 13px;
+    color: #a89f9f;
+    width: 50px;
+}
+
+.tabela1 table td {
+    padding: 15px 24px;
+    text-align: center;
+}
+
+.tabela1 .span {
+    width: 150px;
+    margin: 10px auto;
+}
+
+.tabela1 th {
+    background-color: #fff;
+}
+
+.impar {
+    background-color: #fff;
+}
+
+.par {
+   background-color: #f6f6f6;
+
+}
+
+/* segundo anuncio */
+
+.anuncio-dois{
+    width: 100%;
+    color: #fff;
+    background-color: #2f86d6;
+    padding: 40px 0;
+}
+
+.anuncio2 {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.subt-anuncio {
+    width: 600px;
+}
+
+.anuncio2 h3 {
+    font-size: 24px;
+}
+
+.anuncio2 img {
+    width: 18px;
+    margin: 10px 5px 0 ;
+    position: absolute;
+    top: -5px;
+    left: -30px;
+}
+
+.anuncio2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 14px;
+    left: 35px;
+}
+
+.link2 {
+    width: 218px;
+    height: 55px;
+    background-color: #233032;
+    border-radius: 5px;
+    position: relative;                     
+}
+
+/* contatos */
+
+.container-contatos {
+    max-width: 1024px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo-contato {
+    display: flex;
+    margin: 40px auto 0;
+    padding: 20px 0;
+}
+
+.logo-contato img {
+    width: 85px;
+    margin: 0 10px 20px;
+}
+
+.logo-contato h1 {
+    font-size: 34px;
+}
+
+.logo-contato p {
+    font-size: 18px;
+    color: #2f86d6;
+    font-weight: 600;
+}
+
+.info-contato {
+    text-align: center;
+    padding: 20px 0 40px;
+}
+
+.info-contato p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.rodape {
+    background-color: #f1f3f7;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.rodape p {
+    font-size: 18px;
+}
+
+.rodape span {
+    font-size: 18px;
+    color: #2f86d6;
+}
+
+/* topo tb */
+
+.box-topo2 {
+    max-width: 1024px;
+    margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.top-home-tp {
+    width: 100%;
+    background-color: #2f86d6;
+}
+
+.logo-tp {
+    display: flex;
+}
+
+.logo-tp img {
+    width: 85px;
+    margin: 0 10px 20px;
+}
+
+.logo-tp h1 {
+    font-size: 34px;
+}
+
+.logo-tp p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.links-tp {
+    margin: 30px 0 0;
+}
+
+.links-tp a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+/* tabela de preços */ 
+
+.table-tp {
+    width: 100%;
+    padding: 0 120px;
+    margin: 70px auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.table-tp table {
+    max-width: 1420px;
+}
+
+.topo-td p {
+    color: #a89f9f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.topo-td h1 {
+    font-size: 32px;
+}
+
+.topo-td {
+    background-color: #f1f3f7;
+    max-width: 200px;
+    padding: 20px 10px;
+}
+
+.primeiro-td {
+    padding: 20px ;
+    max-width: 320px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    background-color: #f1f3f7;
+    border-bottom: #fff solid 1px;
+    
+}
+
+.segundo-td {
+    border-right: 1px #f1f3f7 solid;
+    border-bottom: 1px #f1f3f7 solid;
+}
+
+.td-azul {
+    border-right: 1px #f1f3f7 solid;
+    border-bottom: 1px #f1f3f7 solid;
+}
+
+.espaco-vazio {
+    border-right: 1px #f1f3f7 solid;
+    border-bottom: 1px #f1f3f7 solid;
+}
+
+.circulo-azul {
+    width: 18px;
+    height: 18px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: #2f86d6;
+}
+
+/* fim */ 
+
+.container-fim {
+    width: 100%;
+    background-color: #2f86d6;
+}
+
+.sessao-tp-fim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 80px 0;
+}   
+
+
+.sessao-tp-fim p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.logo-final {
+    display: flex;
+    margin: 20px 0;
+}
+
+.logo-final img {
+    width: 85px;
+    margin: 0 10px 20px;
+}
+
+.logo-final h1 {
+    font-size: 34px;
+}
+
+.logo-final p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
